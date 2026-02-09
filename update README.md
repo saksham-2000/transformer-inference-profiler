@@ -1,7 +1,3 @@
-# Transformer Inference Profiler
-
-Benchmarking suite for analyzing transformer inference performance and understanding vLLM's optimization techniques.
-
 ## Overview
 
 This project profiles GPT-2 inference on GPU, measuring latency, throughput, and memory usage across different batch sizes. It analyzes vLLM's architectural optimizations (PagedAttention, continuous batching, kernel fusion) using published benchmarks.
@@ -57,14 +53,6 @@ This project profiles GPT-2 inference on GPU, measuring latency, throughput, and
 # Or run locally with GPU
 pip install -r requirements.txt
 python benchmark.py
-```
-
-## Requirements
-```
-torch>=2.0.0
-transformers>=4.30.0
-matplotlib>=3.7.0
-numpy>=1.24.0
 ```
 
 ## Project Structure
